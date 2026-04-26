@@ -1,0 +1,26 @@
+# GitHub Pages configuration
+# ─────────────────────────────────────────────
+# Drop this file at the root of your repository.
+# Set the repository name below if you are deploying
+# to a project page (e.g. username.github.io/my-repo).
+# Leave baseurl empty if this is your main user/org page.
+
+title: "Communist Dating Sim"
+description: "A narrative dating sim set in 1924 Soviet Russia."
+author: "Heard Island Productions"
+
+# If deploying to https://USERNAME.github.io/REPO-NAME  →  set baseurl: "/REPO-NAME"
+# If deploying to https://USERNAME.github.io             →  leave as ""
+baseurl: ""
+url: ""
+
+# Exclude build files from the site output
+exclude:
+  - README.md
+  - "*.sh"
+  - ".git"
+  - "node_modules"
+
+# Tell GitHub Pages not to use Jekyll processing on the HTML
+# (our file is plain HTML — no Liquid templating needed)
+plugins: []
